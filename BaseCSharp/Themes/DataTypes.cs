@@ -4,7 +4,9 @@ public class DataTypes
 {
     public void Run()
     {
-        // bool System.Boolean 1bit
+        //Минимальная единица адресация в памяти 1 байт (8бит) поэтому меньше байта нельзя выделять память
+        
+        // bool 1byte System.Boolean 1bit
         bool isTrue = true;
         System.Boolean isFalse = false;
         Console.WriteLine(isTrue);

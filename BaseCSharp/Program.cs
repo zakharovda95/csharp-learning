@@ -10,3 +10,5 @@ new Literals().Run();
 new DataTypes().Run();
 // lesson 5
 new InputOutputWithConsole().Run();
+// lesson 6
+new ArithmeticOperations().Run();
