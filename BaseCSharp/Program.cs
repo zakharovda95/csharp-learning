@@ -1,4 +1,4 @@
-﻿using BaseCSharp.Themes;
+﻿using BaseCSharp.Themes.Basic;
 
 // lesson 1
 new ProgramStructure().Run();
@@ -14,3 +14,7 @@ new InputOutputWithConsole().Run();
 new ArithmeticOperations().Run();
 // lesson 7
 new BitwiseOperations().Run();
+// lesson 8
+new AssignmentOperation().Run();
+// lesson 9
+new BasicDataTypesConversions().Run();

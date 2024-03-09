@@ -1,4 +1,4 @@
-namespace BaseCSharp.Themes;
+namespace BaseCSharp.Themes.Basic;
 
 public class ArithmeticOperations
 {

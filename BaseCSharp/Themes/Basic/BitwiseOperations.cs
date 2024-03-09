@@ -1,5 +1,5 @@
 using System.Text;
-namespace BaseCSharp.Themes;
+namespace BaseCSharp.Themes.Basic;
 
 public class BitwiseOperations
 {
