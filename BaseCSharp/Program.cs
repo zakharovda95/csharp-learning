@@ -12,3 +12,5 @@ new DataTypes().Run();
 new InputOutputWithConsole().Run();
 // lesson 6
 new ArithmeticOperations().Run();
+// lesson 7
+new BitwiseOperations().Run();
