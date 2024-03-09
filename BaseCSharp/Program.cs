@@ -20,3 +20,7 @@ new AssignmentOperation().Run();
 new BasicDataTypesConversions().Run();
 // lesson 10
 new ConditionalExpressions().Run();
+// lesson 11
+new Conditionals().Run();
+// lesson 12
+new Cycles().Run();
