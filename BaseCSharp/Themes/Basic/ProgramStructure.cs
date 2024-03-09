@@ -4,18 +4,15 @@ public class ProgramStructure
 {
     public void Run()
     {
-        // Вывод на консоль запуск приложения
-        Console.WriteLine("Введите ваше имя");
-        //var name = Console.ReadLine();
-        var name = "ИМЯ";
-        Console.WriteLine($"Ваше имя {name}");
-
+        // Файлы с расширением .cs , может быть много файлов
+        
         // Блоки инструкций
         {
             Console.WriteLine("Привет!");
             Console.WriteLine("Добро пожаловать в C#");
         }
 
+        // Может иметь внутренние блоки
         {
             Console.WriteLine("Внешний блок");
 
@@ -24,11 +21,11 @@ public class ProgramStructure
             }
         }
 
-        // Комментарии
-
         // Однострочный комментарий
 
         /*Многострочный
         Комментарий*/
+        
+        // Настройки в файле имя_проекта.csproj
     }
 }

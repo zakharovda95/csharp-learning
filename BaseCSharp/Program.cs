@@ -18,3 +18,5 @@ new BitwiseOperations().Run();
 new AssignmentOperation().Run();
 // lesson 9
 new BasicDataTypesConversions().Run();
+// lesson 10
+new ConditionalExpressions().Run();

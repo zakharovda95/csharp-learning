@@ -4,6 +4,7 @@ public class AssignmentOperation
 {
     public void Run()
     {
+        Console.WriteLine("++++++++ ОПЕРАЦИЯ ПРИСВОЕНИЯ ++++++++");
         // = операция присваивания призваивает левому оператору значение правого,
         // причем левый только представляет значение правого оператора (переменную или выражение)
 
@@ -11,7 +12,7 @@ public class AssignmentOperation
 
         int b, c, d;
         b = c = d = 27 * 3 / 2;
-        Console.WriteLine(c + " " + c + " " + d);
+        Console.WriteLine("b = c = d = 40: " + c + " " + c + " " + d);
         
         // У присваивания низкий приоритет поэтому выполняется справа налево
 
@@ -19,6 +20,7 @@ public class AssignmentOperation
 
         
         // сокращенная запись операций с присвоением
+        Console.WriteLine("Сокращенная запись с присвоением");
         // +=
         var f = 10;
         var g = 2;
@@ -43,6 +45,7 @@ public class AssignmentOperation
         Console.WriteLine(f >>= g); // f = f >> g;
         
         // Присвоения правоассоциативные те выполняются слева направо
+        Console.WriteLine("Присвоение правоассоциативные (слева направо)");
         var h = 20;
         var i = 10;
         var j = h += i -= 5;

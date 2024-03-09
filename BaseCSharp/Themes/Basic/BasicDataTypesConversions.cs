@@ -4,6 +4,7 @@ public class BasicDataTypesConversions
 {
     public void Run()
     {
+        Console.WriteLine("++++++++ ПРЕОБРАЗОВАНИЯ БАЗОВЫХ ТИПОВ ++++++++");
         // все целочисленные типы по умолчанию int (4byte)
 
         byte a = 3;
