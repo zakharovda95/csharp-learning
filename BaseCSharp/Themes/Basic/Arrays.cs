@@ -135,5 +135,63 @@ public class Arrays
                 Console.WriteLine(elem3);
             }
         }
+        
+        // Задачи с массивами
+        Console.WriteLine("Задача: колич положительных чисел в массиве");
+        // Определим количество положительных чисел
+        int[] array1 = { -20, 3, 44, -135, -10, 11, -10, -2 };
+        var aboveZeroCount = 0;
+        foreach (var el4 in array1)
+            if (el4 > 0)
+                aboveZeroCount += 1;
+        Console.WriteLine($"Колич положительных чисел {aboveZeroCount}");
+        
+        Console.WriteLine("Задача: инверсия массива");
+        
+        // Инверсия массива
+        sbyte[] array2 = { -4, -3, -2, -1, 0, 1, 2, 3, 4 };
+        var length2 = array2.Length;
+        var mid2 = length2 / 2;
+        sbyte temp1;
+        for (var i = 0; i < mid2; i++)
+        {
+            temp1 = array2[length2 - 1 - i]; // сохраняем последний элемент в промежуточную переменную
+            array2[length2 - 1 - i] = array2[i]; // меняем последний элемент первым
+            array2[i] = temp1; // меняем первый элемент значением из промежуточной переменной
+
+            // решение через XOR - без доп переменной (по закону ассоциативности)
+            //array2[i] ^= array2[^(i + 1)];
+            //array2[^(i + 1)] ^= array2[i];
+            //array2[i] ^= array2[^(i + 1)];
+        }
+
+        foreach (var elem3 in array2)
+            Console.WriteLine(elem3);
+        
+        Console.WriteLine("Задача: сортировка по возрастанию");
+        
+        // Сортировка массива по возрпастанию
+        sbyte[] array3 = { -3, 77, 1, 2, 0, -1, 44, -44, 8 };
+        sbyte temp;
+        for (int i = 0; i < array3.Length - 1; i++) // с первого элемента
+        {
+            for (int j = i + 1; j < array3.Length; j++) // со второго элемента
+            {
+                if (array3[i] > array3[j]) // сравниваем если 1 элемент больше второго
+                {
+                    //temp = array3[i]; // сохраняем 1 элемент в промежуточном значении
+                    //array3[i] = array3[j]; // меняем первый элемент вторым
+                    //array3[j] = temp; // второй элемент первым
+                    
+                    // так же можно решить без доп переменной через XOR
+                    array3[i] ^= array3[j];
+                    array3[j] ^= array3[i];
+                    array3[i] ^= array3[j];
+                }
+            }
+        }
+
+        foreach (var el4 in array3)
+            Console.WriteLine(el4);
     }
 }
