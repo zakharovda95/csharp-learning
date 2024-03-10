@@ -40,3 +40,7 @@
 //new RecursiveFunctions().Run();
 // lesson 20
 //new LocalFunctions().Run();
+// lesson 21
+//new SwitchCase().Run();
+// lesson 22
+new Enums().Run();
