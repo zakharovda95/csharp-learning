@@ -31,4 +31,8 @@
 // lesson 15
 //new MethodParameters().Run();
 // lesson 16
-new MethodsReturnValue().Run();
+//new MethodsReturnValue().Run();
+// lesson 17
+//new ParamsByRefOrValue().Run();
+// lesson 18
+new Params().Run();
