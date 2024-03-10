@@ -8,7 +8,6 @@ public class BitwiseOperations
         Console.WriteLine("++++++++ ПОРАЗРЯДНЫЕ ОПЕРАЦИИ ++++++++");
         // & логическое И или логическое умножение - все входы 1 - выход 1
         // | логическое ИЛИ или логическое сложение - хотя бы 1 вход 1 - выход 1
-        Console.WriteLine("Логическое И и ИЛИ");
         byte x1 = 2;
         byte x2 = 5;
         Console.WriteLine(x1 & x2); // 010 * 101 = 000 => 0 умножение
@@ -21,8 +20,6 @@ public class BitwiseOperations
         // ^ XOR - единица, когда входы имеют разные значения, и не имеют одинаковых значений 
         // те 0 и 1 => 1 , 1 и 0 => 1 , 0 и 0 => 0 , 1 и 1 => 0 
         // применяется для простого шифрования
-        Console.WriteLine("XOR");
-        
         // Простой шифратор - дешифратор XOR (искл ИЛИ)
         var key = "key";
         var codeText = XorEncoderDecoder("Hello World", key);
@@ -39,7 +36,6 @@ public class BitwiseOperations
         Console.WriteLine("Дешифрованое число: " + (code ^ xorkey));
         
         // ~ Логическое отрицание (инверсия) 
-        Console.WriteLine("ИНВЕРСИЯ");
         Console.WriteLine(Convert.ToString(~10, 2)); // ~00001010 (10) => 11110101 (-11 или 245 без знака те 256 - 11 = 245)
         
         // Отрицательное представление чисел

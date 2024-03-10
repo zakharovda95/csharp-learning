@@ -8,16 +8,13 @@ public class Conditionals
         // Условная конструкция направляет по одному из путей в зависимости от условия
         
         // if...else...
-        Console.WriteLine("if... else...");
         var num1 = 7;
         var num2 = 8;
         
         // if - выполнится если условие вернет true
-        Console.WriteLine("if...");
         if (num1 < num2) // true тк 7 < 8
         {
-            // Выполнится этот блок
-            Console.WriteLine("num1 == num2: " + (num1 == num2));
+            Console.WriteLine("Выполнится этот блок");
         }
         
         // Запись в без {} если в теле не больше 1 строки
@@ -28,12 +25,10 @@ public class Conditionals
             Console.WriteLine("1 строка можно без скобок {} и с переносом для красоты");
         
         // Несколько условий
-        Console.WriteLine("Несколько условий");
         if (num1 < num2 && num1 == 7)
-            Console.WriteLine("num1 < num2 и num1 == 7 - выполняется этот блок");
+            Console.WriteLine("Выполняется этот блок");
         
         //else - выполнится если условие в if (и при наличии в else if) не выполнятся
-        Console.WriteLine("else...");
         if (num1 == num2 || num2 == 9)
         {
             Console.WriteLine("Этот блок не выполнится");
@@ -56,6 +51,5 @@ public class Conditionals
         var num3 = 4;
         var num4 = 5;
         var num5 = num3 == 4 ? num3 + 1 : num4 * 7;
-        Console.WriteLine("тернарное выражение: " + num5);
     }
 }

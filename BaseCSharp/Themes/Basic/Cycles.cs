@@ -10,7 +10,6 @@ public class Cycles
         
         // for
         // 1 часть - действия до выполнения, 2 часть - условие выполнения, 3 часть - действия после выполнения
-        Console.WriteLine("for");
         for (var i = 0; i < 5; i++) // i - счетчик i < 5 - условие выведет 0-4 i увеличивается на 1 после каждой итерации
         {
             Console.WriteLine(i);
@@ -29,7 +28,6 @@ public class Cycles
         
         
         // Do... While...
-        Console.WriteLine("Do... While...");
         do
         {
             Console.WriteLine("Выполнится хотябы 1 раз");
@@ -38,7 +36,6 @@ public class Cycles
         while (j < 0);
         
         //While...
-        Console.WriteLine("While...");
         while (j < 5)
         {
             Console.WriteLine(j);
@@ -46,7 +43,6 @@ public class Cycles
         }
         
         // foreach - для коллекций
-        Console.WriteLine("foreach");
         var str = "ARRAY";
         foreach (var el in str)
         {
@@ -55,8 +51,6 @@ public class Cycles
         
         
         // Continue - для пропуска итерации по условию (не выйдет полностью из цикла)
-        Console.WriteLine("Continue");
-
         for (int i = 0; i <= 5; i++)
         {
             if (i == 3) continue; // пропускаем итерацию но не выходим из цикла
@@ -64,8 +58,6 @@ public class Cycles
         }
         
         // Break - для выхода из цикла
-        Console.WriteLine("Break");
-
         for (int i = 0; i <= 5; i++)
         {
             if (i == 3) break; // выходим из цикла (полностью)
@@ -74,7 +66,6 @@ public class Cycles
         
         // Вложенные циклы - в одном цикле может быть 1 и более вложенных циклов
         // Используется для прохода или построения таблиц, сеток, матриц и тд
-
         for (var i = 0; i < 5; i++)
         {
             Console.WriteLine($"Строка (внешний цикл) {i}");

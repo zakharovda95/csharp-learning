@@ -20,7 +20,6 @@ public class AssignmentOperation
 
         
         // сокращенная запись операций с присвоением
-        Console.WriteLine("Сокращенная запись с присвоением");
         // +=
         var f = 10;
         var g = 2;
@@ -45,7 +44,6 @@ public class AssignmentOperation
         Console.WriteLine(f >>= g); // f = f >> g;
         
         // Присвоения правоассоциативные те выполняются слева направо
-        Console.WriteLine("Присвоение правоассоциативные (слева направо)");
         var h = 20;
         var i = 10;
         var j = h += i -= 5;

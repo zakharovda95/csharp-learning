@@ -7,7 +7,6 @@ public class ConditionalExpressions
         Console.WriteLine("++++++++ ЛОГИЧЕСКИЕ ВЫРАЖЕНИЯ ++++++++");
         // условные выражения возвращают true/false - операции сравнения и логические операции
         
-        Console.WriteLine(" - Операции сравнения");
         // Операции сравнения
         const byte a = 100;
         const byte b = 101;
@@ -26,7 +25,7 @@ public class ConditionalExpressions
         
         // >= <= > < - имеют больший приоритет чем == !=
         
-        Console.WriteLine(" - Логические операции");
+        // Логические операции
         const bool c = 100 < 101;
         const bool d = 10 == 10 - 1;
         // |

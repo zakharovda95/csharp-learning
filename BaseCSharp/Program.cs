@@ -1,26 +1,28 @@
 ﻿using BaseCSharp.Themes.Basic;
 
 // lesson 1
-new ProgramStructure().Run();
+//new ProgramStructure().Run();
 // lesson 2
-new Variables().Run();
+//new Variables().Run();
 // lesson 3
-new Literals().Run();
+//new Literals().Run();
 // lesson 4
-new DataTypes().Run();
+//new DataTypes().Run();
 // lesson 5
-new InputOutputWithConsole().Run();
+//new InputOutputWithConsole().Run();
 // lesson 6
-new ArithmeticOperations().Run();
+//new ArithmeticOperations().Run();
 // lesson 7
-new BitwiseOperations().Run();
+//new BitwiseOperations().Run();
 // lesson 8
-new AssignmentOperation().Run();
+//new AssignmentOperation().Run();
 // lesson 9
-new BasicDataTypesConversions().Run();
+//new BasicDataTypesConversions().Run();
 // lesson 10
-new ConditionalExpressions().Run();
+//new ConditionalExpressions().Run();
 // lesson 11
-new Conditionals().Run();
+//new Conditionals().Run();
 // lesson 12
-new Cycles().Run();
+//new Cycles().Run();
+// lesson 13
+new Arrays().Run();

@@ -11,7 +11,6 @@ public class Literals
         // Литералы бывают:
         // Целочисленные, Вещественные, Символьные, Строковые, Логические, null
         
-        
         // Логические литералы
         Console.WriteLine("Логические");
         Console.WriteLine(true);
@@ -21,8 +20,8 @@ public class Literals
         Console.WriteLine("Целочисленные");
         Console.WriteLine("Положительные: " + 134);
         Console.WriteLine("Отрицательные: " + -32);
-        Console.WriteLine("Шестнадцатеричные: " + Convert.ToString(0x0A, 16)); // шестнадцатеричный
-        Console.WriteLine("Двоичный: " + Convert.ToString(011, 2)); // двоичный
+        Console.WriteLine("Шестнадцатеричные: " + Convert.ToString(0x0A, 16)); // шестнадцатеричный 0x0A
+        Console.WriteLine("Двоичный: " + Convert.ToString(0b010, 2)); // двоичный 0b0000_0001
         
         // Вещественные литералы (с фиксированной запятой, экспонентальная форма)
         Console.WriteLine("Вещественные: " + 3.14);
@@ -31,12 +30,12 @@ public class Literals
         
         // Символьные литералы (в одинарных кавычках)
         Console.WriteLine("Символьные");
-        Console.WriteLine('A');
-        Console.WriteLine('!');
+        Console.WriteLine("Буквы: " + 'A');
+        Console.WriteLine("Знаки: " + '!');
         // Управляющие последовательности
         Console.WriteLine("Управляющие последовательности");
-        Console.WriteLine('\n'); // перевод строки
-        Console.WriteLine('\t'); // табуляция
+        Console.WriteLine("Перенос строки: " + '\n'); // перевод строки
+        Console.WriteLine("Табуляция: " + '\t'); // табуляция
         // Шестнадцатеричный код
         Console.WriteLine("Шестнадцатеричный код");
         Console.WriteLine('\x78'); // x
