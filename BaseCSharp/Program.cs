@@ -35,4 +35,8 @@
 // lesson 17
 //new ParamsByRefOrValue().Run();
 // lesson 18
-new Params().Run();
+//new Params().Run();
+// lesson 19
+//new RecursiveFunctions().Run();
+// lesson 20
+//new LocalFunctions().Run();
