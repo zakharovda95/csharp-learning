@@ -25,4 +25,10 @@
 // lesson 12
 //new Cycles().Run();
 // lesson 13
-new Arrays().Run();
+//new Arrays().Run();
+// lesson 14
+//new Methods().Run();
+// lesson 15
+//new MethodParameters().Run();
+// lesson 16
+new MethodsReturnValue().Run();
