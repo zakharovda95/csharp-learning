@@ -1,5 +1,7 @@
 ﻿using BaseCSharp.Themes.Basic;
+using BaseCSharp.Themes.NamespacesClassesStucts;
 
+//BASIC
 // lesson 1
 //new ProgramStructure().Run();
 // lesson 2
@@ -43,4 +45,8 @@
 // lesson 21
 //new SwitchCase().Run();
 // lesson 22
-new Enums().Run();
+//new Enums().Run();
+
+// NAMESPACES CLASSES STRUCTS
+// lesson 23
+new ClassesAndObjects().Run();
