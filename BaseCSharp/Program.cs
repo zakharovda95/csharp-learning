@@ -1,5 +1,5 @@
 ﻿using BaseCSharp.Themes.Basic;
-using BaseCSharp.Themes.NamespacesClassesStucts;
+using BaseCSharp.Themes.NamespacesClassesStructs;
 
 //BASIC
 // lesson 1
@@ -49,4 +49,6 @@ using BaseCSharp.Themes.NamespacesClassesStucts;
 
 // NAMESPACES CLASSES STRUCTS
 // lesson 23
-new ClassesAndObjects().Run();
+//new ClassesAndObjects().Run();
+// lesson 24
+new ConstructorsInitializersDeconstructs().Run();
