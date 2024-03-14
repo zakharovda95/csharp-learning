@@ -51,4 +51,6 @@ using BaseCSharp.Themes.NamespacesClassesStructs;
 // lesson 23
 //new ClassesAndObjects().Run();
 // lesson 24
-new ConstructorsInitializersDeconstructs().Run();
+//new ConstructorsInitializersDeconstructs().Run();
+// lesson 25
+new Structs().Run();

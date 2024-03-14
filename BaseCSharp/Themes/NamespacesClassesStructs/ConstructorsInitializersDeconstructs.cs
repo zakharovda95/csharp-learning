@@ -119,6 +119,21 @@ public class ConstructorsInitializersDeconstructs
         }
     }
     
+    public class Example4
+    {
+        private string val1;
+        private int val2;
+        public Example4(string val1)
+        {
+            this.val1 = val1;
+        }
+
+        public Example4(string val2, int val3) : this(val2)
+        {
+            this.val2 = val3;
+        }
+    }
+    
     
     
     public void Run()
@@ -159,5 +174,7 @@ public class ConstructorsInitializersDeconstructs
         (string val1, _, Example2 example2) = obj8; // удобный способ возврата параметров для чтения
         // удобный способ возврата множества параметров
         // поджопник - если не нужен параметр, на том месте ставим прочерк
+
+        //var obj9 = new Example4(); // нельзя вызвать конструктор по умолчанию если есть перегрузки
     }
 }
