@@ -76,6 +76,7 @@ public class ConstructorsInitializersDeconstructs
     // Первичные конструкторы - создает поля по переданным параметрам под капотом
     class Example2(string val1, int val2) // первичный конструктор
     {
+        public string val;
         public Example2(int val1, string val2) : this(val2, val1) // обязаны вызвать первич конструктор в каждой перегрузке
         {
             Console.WriteLine("Теперь минимальное кол параметров 2 1 инт другой стринг");
@@ -94,6 +95,7 @@ public class ConstructorsInitializersDeconstructs
     {
         public string val1; // можно присвоить значение в инициализаторе при создании экземпляра
         public int val2;
+        public Example2 examle2;
 
         public Example3()
         {
@@ -102,11 +104,22 @@ public class ConstructorsInitializersDeconstructs
             Console.WriteLine($"Значение в конструкторе {val1} {val2}");
         }
 
+        // Деконструкция объекта - нужно определить метод с out параметрами
+        // Метод должен называться именно Deconstruct
+        public void Deconstruct(out string val3, out int val4, out Example2 example3)
+        {
+            val3 = val1; // присвоили аут переменным значения и теперь можно их деконструировать
+            val4 = val2;
+            example3 = examle2;
+        }
+
         public void Print()
         {
             Console.WriteLine($"Значение после создания экземпляра {val1} {val2}"); // перезаписались инициализатором
         }
     }
+    
+    
     
     public void Run()
     {
@@ -136,7 +149,15 @@ public class ConstructorsInitializersDeconstructs
         Example2 obj7 = new("123", 123); // - все ок есть 2 параметра для первичного конструктора
 
         // инициализаторы - выполняются ПОСЛЕ конструкторов - те инициализированное все в конструкторе перезапишется
-        Example3 obj8 = new Example3 { val1 = "Дима", val2 = 28 }; // записали данные при создании и без конструктора
+        Example3 obj8 = new Example3 { val1 = "Дима", val2 = 28, examle2 = { val = "val"} }; // записали данные при создании и без конструктора
+        
+        //examle2 = { val = "val"} инициализация другого класса в инициализаторе (без new просто через литерал объекта)
         obj8.Print();
+        
+        // Деконструкторы - то же что и деструктуризация в JS разделение объекта на отдельные переменные
+        // только получаем через метод с out параметрами
+        (string val1, _, Example2 example2) = obj8; // удобный способ возврата параметров для чтения
+        // удобный способ возврата множества параметров
+        // поджопник - если не нужен параметр, на том месте ставим прочерк
     }
 }
