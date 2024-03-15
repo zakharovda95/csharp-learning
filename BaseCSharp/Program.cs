@@ -53,4 +53,6 @@ using BaseCSharp.Themes.NamespacesClassesStructs;
 // lesson 24
 //new ConstructorsInitializersDeconstructs().Run();
 // lesson 25
-new Structs().Run();
+//new Structs().Run();
+// lesson 26
+new RefValueTypes().Run();

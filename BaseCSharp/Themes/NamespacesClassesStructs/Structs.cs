@@ -60,7 +60,6 @@ public class Structs
         // Все примитивы int bool char и тд - являются структурами
         
         // создание и обращение к полям и методам как и в классах - разницы нет
-
         var struct0 = new Example2(); // конструктор по умолчанию установит значения по умолчанию int - 0 string - null
         struct0.age = 29; // установка значений как в классах
         
@@ -81,5 +80,12 @@ public class Structs
         // Копирование с небольшими изменениями с помощью with
         var example5 = example4 with { Field = "Другое поле" }; // скопировали структуру example4 но переназначили поле Field
         
+        // Варианты записи (можно с new а можно без new)
+        var examople6 = new Example3(); // как класс
+        Example3 example7; // без оператора new как примитив
+        example7.Field = "";
+
+        var example8 = examople6 with { Field = "123" };
+
     }
 }
