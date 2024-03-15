@@ -1,6 +1,6 @@
 ﻿using BaseCSharp.Themes.Basic;
-using BaseCSharp.Themes.NamespacesClassesStructs;
-
+using BaseCSharp.Themes.NamespacesClassesStructs; // импорт (подключение) пространства имен
+using TestClassLibrary;
 //BASIC
 // lesson 1
 //new ProgramStructure().Run();
@@ -58,3 +58,7 @@ using BaseCSharp.Themes.NamespacesClassesStructs;
 //new RefValueTypes().Run();
 // lesson 27
 //new Context().Run();
+// lesson 28
+//new Namespaces().Run();
+// lesson 29 LibraryClasses
+var exClass = new Example1(); // - из библиотеки классов ссылка добавлена в сproj
