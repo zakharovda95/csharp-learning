@@ -7,9 +7,15 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <!-- Подключение (через ссылку) отдельных dll -->
     <ItemGroup>
       <Reference Include="TestClassLibrary">
         <HintPath>..\TestClassLibrary\bin\Debug\net8.0\TestClassLibrary.dll</HintPath>
       </Reference>
+    </ItemGroup>
+
+    <!-- Подключение (через ссылку) всего проекта -->
+    <ItemGroup>
+      <ProjectReference Include="..\TestClassLibrary\TestClassLibrary.csproj" />
     </ItemGroup>
 </Project>

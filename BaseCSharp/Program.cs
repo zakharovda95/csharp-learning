@@ -61,4 +61,10 @@ using TestClassLibrary;
 // lesson 28
 //new Namespaces().Run();
 // lesson 29 LibraryClasses
-var exClass = new Example1(); // - из библиотеки классов ссылка добавлена в сproj
+//var exClass = new Example1(); // - из библиотеки классов ссылка добавлена в сproj
+// lesson 30
+//new AccessModifiers().Run();
+// lesson 31
+//new Properties().Run();
+// lesson 32
+new MethodOverloading().Run();
