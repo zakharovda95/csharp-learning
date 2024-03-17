@@ -71,4 +71,6 @@ using TestClassLibrary;
 // lesson 33
 //new StaticFieldsAndMethodsOfClass().Run();
 // lesson 34
-new NugetPackages().Run();
+//new NugetPackages().Run();
+// lesson 35
+new Nullables().Run();
