@@ -18,4 +18,9 @@
     <ItemGroup>
       <ProjectReference Include="..\TestClassLibrary\TestClassLibrary.csproj" />
     </ItemGroup>
+    
+    <!-- Подключение пакета нюгет -->
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
 </Project>

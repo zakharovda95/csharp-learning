@@ -67,4 +67,8 @@ using TestClassLibrary;
 // lesson 31
 //new Properties().Run();
 // lesson 32
-new MethodOverloading().Run();
+//new MethodOverloading().Run();
+// lesson 33
+//new StaticFieldsAndMethodsOfClass().Run();
+// lesson 34
+new NugetPackages().Run();
