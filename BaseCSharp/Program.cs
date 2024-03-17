@@ -73,4 +73,6 @@ using TestClassLibrary;
 // lesson 34
 //new NugetPackages().Run();
 // lesson 35
-new Nullables().Run();
+//new Nullables().Run();
+// lesson 36
+new UsingStaticUsing().Run();
