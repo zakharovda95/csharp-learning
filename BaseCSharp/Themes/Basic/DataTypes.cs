@@ -8,7 +8,7 @@ public class DataTypes
         //Минимальная единица адресация в памяти 1 байт (8бит) поэтому меньше байта нельзя выделять память
         
         
-        // bool 1byte System.Boolean 1byteё
+        // bool 1byte System.Boolean 1byte
         bool isTrue = true;
         System.Boolean isFalse = false;
         
