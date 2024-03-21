@@ -12,12 +12,10 @@ public class Literals
         // Целочисленные, Вещественные, Символьные, Строковые, Логические, null
         
         // Логические литералы
-        Console.WriteLine("Логические");
         Console.WriteLine(true);
         Console.WriteLine(false);
         
         // Целочисленные литералы (десятичные, шестнадцатеричные, двоичный)
-        Console.WriteLine("Целочисленные");
         Console.WriteLine("Положительные: " + 134);
         Console.WriteLine("Отрицательные: " + -32);
         Console.WriteLine("Шестнадцатеричные: " + Convert.ToString(0x0A, 16)); // шестнадцатеричный 0x0A
@@ -29,7 +27,6 @@ public class Literals
         Console.WriteLine("Вещественные в экспонентной форме с отрцательной степенью: " + 3.12E-2); // 3.12 * 10 в -2 степени
         
         // Символьные литералы (в одинарных кавычках)
-        Console.WriteLine("Символьные");
         Console.WriteLine("Буквы: " + 'A');
         Console.WriteLine("Знаки: " + '!');
         // Управляющие последовательности

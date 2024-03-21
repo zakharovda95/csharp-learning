@@ -1,5 +1,6 @@
 ﻿using BaseCSharp.Themes.Basic;
-using BaseCSharp.Themes.NamespacesClassesStructs; // импорт (подключение) пространства имен
+using BaseCSharp.Themes.NamespacesClassesStructs;
+using BaseCSharp.Themes.OOP; // импорт (подключение) пространства имен
 using TestClassLibrary;
 //BASIC
 // lesson 1
@@ -75,4 +76,8 @@ using TestClassLibrary;
 // lesson 35
 //new Nullables().Run();
 // lesson 36
-new UsingStaticUsing().Run();
+//new UsingStaticUsing().Run();
+
+//OOP
+// lesson 37
+new Inheritance().Run();
